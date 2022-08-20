@@ -1,0 +1,82 @@
+body {
+  background-image: url("pic2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+.main {
+  margin-top: 200px;
+  margin-left: 550px;
+  width: 250px;
+  height: 350px;
+  font-size: 30px;
+  text-align: center;
+  border: none;
+  box-shadow: 0px 0px 30px gray;
+  background-color: white;
+  transition: 0.6s ease;
+}
+
+.main:hover {
+  box-shadow: 0px 0px 30px rgb(91, 91, 91);
+}
+
+.text {
+  width: 240px;
+  height: 50px;
+  border: none;
+  text-align: right;
+  font-size: 20px;
+  color: blue;
+}
+
+.button {
+  width: 41px;
+  height: 35px;
+  box-shadow: 0px 0px 10px skyblue;
+  cursor: pointer;
+  border: none;
+  transition: 0.6s ease;
+}
+
+.opp {
+  width: 41px;
+  height: 35px;
+  box-shadow: 0px 0px 10px skyblue;
+  cursor: pointer;
+  border: none;
+  transition: 0.6s ease;
+  background-color: rgb(209, 222, 226);
+}
+
+#equal {
+  width: 41px;
+  height: 81px;
+  box-shadow: 0px 0px 10px skyblue;
+  cursor: pointer;
+  border: none;
+  margin-top: 6px;
+  transition: 0.6s ease;
+  background-color: rgb(209, 222, 226);
+}
+
+.button:hover {
+  background-color: skyblue;
+  font-weight: bold;
+}
+.opp:hover {
+  background-color: skyblue;
+  font-weight: bold;
+}
+
+#equal:hover {
+  background-color: skyblue;
+  font-weight: bold;
+}
+
+input[type="button"],
+input[type="text"] {
+  outline: none;
+}
